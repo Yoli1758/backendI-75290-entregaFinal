@@ -1,7 +1,7 @@
 import CartManager from '../managers/CartManager.js'
 import ProductManager from "../managers/ProductManager.js";
 import { cartsModel } from '../models/carts.model.js'
-
+import { productsModel } from '../models/products.model.js';
 
 class CartService {
 
@@ -95,14 +95,35 @@ class CartService {
 
     //reemplaza todos los productos del carrito con el array proporcionado.
     async updateCartProducts(cid, products) {
-        try {
+        // try {
             if (this.useMongo) {
                 console.log(products)
-                await cartsModel.findByIdAndUpdate(
+
+                const invalidStructure = products.filter(p => !p.product || !p.quantity);
+                if (invalidStructure.length > 0) {
+                    throw new Error('Todos los productos deben tener `product` y `quantity`');
+                }
+
+                const productIds = products.map(p => p.product);
+                const existingProducts = await productsModel.find({ _id: { $in: productIds } });
+                const existingProductIds = existingProducts.map(p => p._id.toString());
+
+                const invalidProducts = productIds.filter(id => !existingProductIds.includes(id));
+                if (invalidProducts.length > 0) {
+                    throw new Error(`Los siguientes productos no existen: ${invalidProducts.join(", ")}`);
+
+                }
+
+                const updatedCart = await cartsModel.findByIdAndUpdate(
                     cid,
                     { $set: { products } },
                     { new: true }
                 );
+
+                if (!updatedCart) {
+                    throw new Error(`Carrito con id ${cid} no encontrado`);
+                }
+
                 const cart = await cartsModel.findById(cid).populate('products.product');
 
                 return cart;
@@ -111,10 +132,10 @@ class CartService {
                 return await this.cartManager.updateProductCart(cid, products);
             }
 
-        } catch (error) {
-            console.log(`Error al actualizar los productos del carrito ${cid}:`, error.message);
+        // } catch (error) {
+        //     console.log(`Error al actualizar los productos del carrito ${cid}:`, error.message);
 
-        }
+        // }
     }
 
     //actualiza la cantidad de un producto especifico en el carrito

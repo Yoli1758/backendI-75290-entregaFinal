@@ -68,16 +68,14 @@ function cartsRouter(cartService) {
     router.put("/:cid", async (req, resp) => {
         const cid = req.params.cid;
         const products = req.body;
-       
+
         try {
             const updCart = await cartService.updateCartProducts(cid, products);
-            if (!updCart) {
-                return resp.status(404).json({ error: "Carrito no encontrado" });
-            }
-            console.log(updCart)
+            console.log(`Carrito ${cid} actualizado`,  updCart);
             resp.json({ message: `Carrito ${cid} actualizado`, cart: updCart });
         } catch (error) {
-            resp.status(500).json({ error: `Error al actualizar el carrito ${cid} error:${error.message}` });
+            console.log("Error desde endpoint:", error.message);
+            resp.status(400).json({ error: error.message });
         }
     });
 
