@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="contenedor-bienvenido">
+            <h2>Bienvenidos a nuestra Web Snotra</h2>
+            <p>
+                "Tu cuerpo puede resistir más de lo que tu mente cree. ¡No te rindas!"."La persistencia logra lo
+                imposible". juntos haremos que puedas lograr tu mejor <span>versión</span>
+            </p>
+        </div>
+        <section>
+            {{#if products}}
+
+            <div class="contenedor-productos">
+                {{#each products}}
+                <div class="productos">
+                    {{#if this.thumbnails.[0]}}
+                    <img src="{{this.thumbnails.[0]}}" alt="{{this.title}}">
+                    {{else}}
+                    <img src="/src/agotado.jpg" alt="nodisponible">
+                    {{/if}}
+                    <div class="descrip-productos">
+                        <p>{{this.description}}</p>
+                        <h2>${{this.price}}</h2>
+                    </div>
+
+                </div>
+                {{/each}}
+
+
+            </div>
+            <div class="pagination">
+                {{#if hasPrevPage}}
+                <a href="{{prevLink}}">⬅️ Anterior</a>
+                {{/if}}
+                <span>Página actual: {{currentPage}}</span>
+                {{#if hasNextPage}}
+                <a href="{{nextLink}}">Siguiente ➡️</a>
+                {{/if}}
+            </div>
+            {{else}}
+            <div class="productoNoDisponible">
+                <p>REGALÁ DEPORTE DISEÑO Y MOVIMIENTO</p>
+                <img src="https://images.pexels.com/photos/866023/pexels-photo-866023.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="deporte">
+            </div>
+            {{/if}}
+        </section>
+    </main>
+</body>
+</html>

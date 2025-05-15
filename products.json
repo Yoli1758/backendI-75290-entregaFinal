@@ -1,0 +1,707 @@
+[
+  {
+    "id": 1,
+    "title": "Jordan Dri-Fit Club",
+    "description": "Gorra Jordan Unisex",
+    "code": "ACC001",
+    "price": "52.99",
+    "status": "true",
+    "stock": "10",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1036072-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1036073-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas running",
+    "description": "Zapatillas ligeras con amortiguación para corredores",
+    "code": "ZAP001",
+    "price": "89.99",
+    "status": "true",
+    "stock": "30",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1100190-1000-1000?v=638628241725770000&width=1000&height=1000&aspect=true",
+      "https://example.com/images/zapatillas2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Nike Alate Minimalist",
+    "description": "Top Deportivo de Entrenamiento para Mujer",
+    "code": "TOP001",
+    "price": "71.99",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1112036-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1113724-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Legging Nike Pro 365",
+    "description": "Calzas Cortas de Entrenamiento para Mujer",
+    "code": "CAL001",
+    "price": "239.12",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/028358IDA6.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/028358IDA1.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Nike Hike",
+    "description": "Mochila de entrenamiento Unisex",
+    "code": "ACC002",
+    "price": "129.99",
+    "status": "true",
+    "stock": "25",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1236406-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1240515-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Calza Nike Sportswear Woven",
+    "description": "Calzas Casual para Mujer",
+    "code": "CAL005",
+    "price": "378.999",
+    "status": "true",
+    "stock": "10",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/029676IDA7.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/029676IDA6.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Nike Pro",
+    "description": "Buzo de Entrenamiento para Mujer",
+    "code": "BUZ001",
+    "price": "125.999",
+    "status": "true",
+    "stock": "8",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1183778-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1185175-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Nike Invincible 3",
+    "description": "Zapatillas de Running para Hombre",
+    "code": "ZAP002",
+    "price": "279.999",
+    "status": "true",
+    "stock": "18",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1133641-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1128038-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Legging Nike Dri-Fit Swift",
+    "description": "Calza para running Femenina",
+    "code": "CAL002",
+    "price": "449.999",
+    "status": "true",
+    "stock": "2",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/031645BPA1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/031645BPA4.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Nike SS Recharge",
+    "description": "Botella de Entrenamiento Unisex",
+    "code": "ACC003",
+    "price": "74.99",
+    "status": "true",
+    "stock": "10",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/912649-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/912650-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Nike Juniper Trail 3",
+    "description": "Zapatillas de Trail para Hombre",
+    "code": "ZAP003",
+    "price": "169.99",
+    "status": "true",
+    "stock": "10",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1218101-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1224249-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Nike Sportswear Club",
+    "description": "Musculosa de moda para Mujer",
+    "code": "REM001",
+    "price": "40.99",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/996574-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/999585-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Buzo Nike Liverpool FC Masculino",
+    "description": "Buzo para entrenamiento Hombre",
+    "code": "BUZ002",
+    "price": "521.78",
+    "status": "true",
+    "stock": "16",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/027593NDA7.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/027593NDA1.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Nike DownShifter 13",
+    "description": "Zapatillas de Running para Hombre",
+    "code": "ZAP004",
+    "price": "119.700",
+    "status": "",
+    "stock": "5",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1290678-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1297590-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id":15,
+    "title": "Remera Polo Nike Dri-Fit",
+    "description": "Remera comoda para Polo",
+    "code": "REM008",
+    "price": "168.999",
+    "status": "true",
+    "stock": "10",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/007224IDA4.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/007224IDA1.jpg"
+    ]
+  },
+  {
+    "id":16,
+    "title": "Remera Nike Dri-Fit Uniformes",
+    "description": "Comodidad en tus carreras",
+    "code": "REM009",
+    "price": "107.999",
+    "status": "true",
+    "stock": "8",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/0166630LA5.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/0166630LA1.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Nike SportsWear Phoenix Cozy Boucle",
+    "description": "Remera de Moda para Mujer",
+    "code": "REM002",
+    "price": "94.999",
+    "status": "true",
+    "stock": "8",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/846139-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/852029-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Shorts Nike Dri_FIT ADV",
+    "description": "Libertad y Movilidad",
+    "code": "SH004",
+    "price": "323.999",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/02588515A8.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/02588515A1.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Chaqueta Nike Trail Repel",
+    "description": "Libertad y Movilidad",
+    "code": "BUZ006",
+    "price": "377.99",
+    "status": "true",
+    "stock": "4",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/024970NDA9.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/024970NDA1.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Nike Pro Swoosh",
+    "description": "Top Deportivo de Entrenamiento para Mujer",
+    "code": "TOP002",
+    "price": "68.99",
+    "status": "true",
+    "stock": "3",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/809376-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/814521-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Legging Nike Pro Sculpt 365",
+    "description": "Calza de entrenamiento Deportivo",
+    "code": "CAL003",
+    "price": "259.99",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/061822P1A1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/061822P1A2.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Jam Rise Festival ",
+    "description": "Bandolera Jordan para Niño/a",
+    "code": "ACC004",
+    "price": "49.499",
+    "status": "true",
+    "stock": "5",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1048743-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1048747-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Nike Phantom GX 2 Club",
+    "description": "Botines de Pasto Natural Unisex FG",
+    "code": "ZAP005",
+    "price": "87.312",
+    "status": "true",
+    "stock": "7",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1007059-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/995132-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Bolso Nike Unisex",
+    "description": "LLeva Todo a tu Entrenamiento",
+    "code": "ACC011",
+    "price": "237.999",
+    "status": "true",
+    "stock": "10",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/025470IDA2.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/025470IDA3.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Chaqueta Nike COrinthians",
+    "description": "Chaqueta Strike Masculina",
+    "code": "BUZ004",
+    "price": "449.999",
+    "status": "true",
+    "stock": "7",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/030496IDA5.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/030496IDA2.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Nike One Twist",
+    "description": "Top Deportivo de Entrenamiento para mujer",
+    "code": "TOP003",
+    "price": "71.999",
+    "status": "true",
+    "stock": "8",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1235891-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1237970-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Remera Nike Pro Femenina",
+    "description": "Entrenamiento y Moda",
+    "code": "REM007",
+    "price": "152.999",
+    "status": "true",
+    "stock": "15",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/026752IDA6.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/026752IDA1.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Air Jordan 5 Retro",
+    "description": "Zapatillas Jordan para Mujer",
+    "code": "ZAP010",
+    "price": "398.99",
+    "status": "true",
+    "stock": "4",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1335843-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1352533-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Nike Everyday Lightweight",
+    "description": "Medias de Entrenamiento Unisex 3 Pares",
+    "code": "ACC010",
+    "price": "16.99",
+    "status": "true",
+    "stock": "3",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/588848-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/589896-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Nike Gym Essentials 2.0",
+    "description": "Guantes de Entrenamiento para Hombre",
+    "code": "ACC005",
+    "price": "41.99",
+    "status": "true",
+    "stock": "5",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1388584-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1388800-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Nike Air Max 90 Futura SE",
+    "description": "Zapatillas de Moda para Mujer",
+    "code": "ZAP006",
+    "price": "270.0",
+    "status": "true",
+    "stock": "5",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/846725-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/859565-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Nike Sportswear Essential",
+    "description": "Body de Moda para Mujer",
+    "code": "REM003",
+    "price": "83.99",
+    "status": "true",
+    "stock": "2",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/532832-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/550064-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id":33,
+    "title": "Nike Icon Cortez",
+    "description": "Bolzo de Mano Unisex",
+    "code": "ACC006",
+    "price": "61.999",
+    "status": "true",
+    "stock": "4",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1048802-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1048805-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id":34,
+    "title": "Shorts Nike Dri-FIT Swift",
+    "description": "Comodidad en tus carreras",
+    "code": "SH003",
+    "price": "329.999",
+    "status": "true",
+    "stock": "3",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/024883A1A11.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/024883A1A1.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Nike Indy Light Support",
+    "description": "Top Deportivo de Running para Mujer",
+    "code": "TOP004",
+    "price": "59.999",
+    "status": "true",
+    "stock": "1",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1048849-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1048973-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Shorts Nike One Femenino",
+    "description": "Comodidad en tus carreras",
+    "code": "SH002",
+    "price": "188.999",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/024833N3A8.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/024833N3A1.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Nike Dunk Low",
+    "description": "Zapatillas de Moda para Mujer",
+    "code": "ZAP009",
+    "price": "196.45",
+    "status": "true",
+    "stock": "10",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/658418-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/666242-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Nike Academy Team",
+    "description": "Bolso de Futbol Unisex - 95L",
+    "code": "ACC007",
+    "price": "109.99",
+    "status": "true",
+    "stock": "5",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/703178-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/710743-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Shorts Nike Pro Femenino",
+    "description": "Entrenamiento y Comodidad",
+    "code": "SH001",
+    "price": "179.99",
+    "status": "true",
+    "stock": "2",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/011903MYA1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/011903MYA4.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Legging Nike Pro 365",
+    "description": "Calza de entrenamiento Deportivo",
+    "code": "CAL004",
+    "price": "296.36",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/027313NDA5.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/027313NDA1.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Nike Free Metcon 6",
+    "description": "Zapatillas de Entrenamiento para Mujer",
+    "code": "ZAP007",
+    "price": "230.51",
+    "status": "true",
+    "stock": "20",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1055171-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1060787-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Camiseta Nike Pro Cropped",
+    "description": "Remera de Entrenamiento para Mujer",
+    "code": "REM006",
+    "price": "314.999",
+    "status": "true",
+    "stock": "8",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/062344P1A1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/062344P1A2.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Jordan Sport Indy",
+    "description": "Top Deportivo Jordan para Mujer",
+    "code": "TOP005",
+    "price": "65.999",
+    "status": "true",
+    "stock": "8",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1283453-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1286045-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Top Nike Indy Strapy",
+    "description": "Top de Entrenamiento",
+    "code": "TOP006",
+    "price": "269.999",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/031283IDA1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/031283IDA2.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Nike Pro Shine",
+    "description": "Remera Manga Larga de Entrenamiento para Mujer",
+    "code": "REM004",
+    "price": "89.99",
+    "status": "true",
+    "stock": "4",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1195043-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1197123-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Nike Fiftyone49",
+    "description": "Valija de Moda Unisex",
+    "code": "ACC008",
+    "price": "239.99",
+    "status": "true",
+    "stock": "3",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1214402-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1214651-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Nike MC Trainer 3",
+    "description": "Zapatillas de Entrenamiento para Mujer",
+    "code": "ZAP008",
+    "price": "136.75",
+    "status": "true",
+    "stock": "10",
+    "category": "Calzado",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1183949-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1189523-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Buzo Nike Soft Knit 24.7",
+    "description": "Buzo comodo y agradable",
+    "code": "BUZ005",
+    "price": "584.99",
+    "status": "true",
+    "stock": "5",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://imgnike-a.akamaihd.net/768x768/03003351A1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/03003351A2.jpg"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Nike Pack",
+    "description": "Riñonera de Running Unisex",
+    "code": "ACC009",
+    "price": "57.499",
+    "status": "true",
+    "stock": "2",
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/912596-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/912597-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  },
+  {
+    "id":50,
+    "title": "Nike One Classic",
+    "description": "Remera de Entrenamiento para Mujer",
+    "code": "REM005",
+    "price": "48.999",
+    "status": "true",
+    "stock": "1",
+    "category": "Ropa",
+    "thumbnails": [
+      "https://nikearprod.vtexassets.com/arquivos/ids/1055130-1200-1200?width=1200&height=1200&aspect=true",
+      "https://nikearprod.vtexassets.com/arquivos/ids/1056534-1200-1200?width=1200&height=1200&aspect=true"
+    ]
+  }
+  
+ 
+
+
+
+]

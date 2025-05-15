@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos en Tiempo Real</title>
+
+</head>
+
+<body>
+
+
+    <main>
+        <h1>Productos</h1>
+
+        <div class="contenedor-cart">
+            <div class="contenedortabla">
+                <div class="table">
+                    <div class="table-header">
+
+                        <div class="table-cell cell-product">Producto</div>
+                        <div class="table-cell cell-description">Descripción</div>
+                        <div class="table-cell cell-code">Código</div>
+                        <div class="table-cell cell-price">Precio</div>
+                        <div class="table-cell cell-category">Categoria</div>
+                        <div class="table-cell cell-stock">Stock</div>
+                        <div class="table-cell cell-action">Accion</div>
+                    </div>
+
+                    <div  id="product-table-body">
+
+                    </div>
+                </div>
+            </div>
+            <div class="datosFormulario">
+                <h2>Agregar un producto</h2>
+                <form id="add-product-form">
+                    <input type="text" id="title" placeholder="Título" required>
+                    <input type="text" id="description" placeholder="Descripción" required>
+                    <input type="text" id="code" placeholder="Código" required>
+                    <input type="number" id="price" placeholder="Precio" required step="0.01">
+                    <input type="text" id="status" placeholder="Status">
+                    <input type="number" id="stock" placeholder="Stock" required>
+                    <input type="text" id="category" placeholder="Categoría" required>
+                    <input type="text" id="thumbnails" placeholder="Thumbnails" required>
+                    <button type="submit">Agregar</button>
+                </form>
+            </div>
+            <div class="pagination" id="product-table-page">
+
+            </div>
+        </div>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/realtimeproducts.js"></script>
+</body>
+
+</html>
